@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F9934809A33C0A1BCE512C0 /* GithubReposTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C978AA8E2CF0EF4D68DF3402 /* GithubReposTableViewController.swift */; };
+		75E9330740FE54834D1977D7 /* GitHubRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6A5FEBFA080F6B53EED975 /* GitHubRepository.swift */; };
 		7DFB105BF3CE0D4163E34406 /* GitHubExampleAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E6CFA29C52610E2B9A3E8F /* GitHubExampleAppDelegate.swift */; };
 		802208D75C5F4AA229D153EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65E1DD8BD2E383FF35ED9D40 /* Main.storyboard */; };
 		A708829CF2FD15A9EFEE5933 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC4FF90E87E232FDC7BDBCBC /* Assets.xcassets */; };
@@ -18,6 +20,8 @@
 		286CAAC02D95FCD42642BFBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5659F7C4B4304E2E96B4AAD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		65E1DD8BD2E383FF35ED9D40 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		6A6A5FEBFA080F6B53EED975 /* GitHubRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubRepository.swift; sourceTree = "<group>"; };
+		C978AA8E2CF0EF4D68DF3402 /* GithubReposTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubReposTableViewController.swift; sourceTree = "<group>"; };
 		D5E6CFA29C52610E2B9A3E8F /* GitHubExampleAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubExampleAppDelegate.swift; sourceTree = "<group>"; };
 		EC4FF90E87E232FDC7BDBCBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -73,6 +77,7 @@
 		E75CB16D1CAB79DEA34A6155 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				6A6A5FEBFA080F6B53EED975 /* GitHubRepository.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -80,6 +85,7 @@
 		EF23BFEDB5AC8E8CC5225D51 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				C978AA8E2CF0EF4D68DF3402 /* GithubReposTableViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -153,6 +159,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7DFB105BF3CE0D4163E34406 /* GitHubExampleAppDelegate.swift in Sources */,
+				75E9330740FE54834D1977D7 /* GitHubRepository.swift in Sources */,
+				5F9934809A33C0A1BCE512C0 /* GithubReposTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,7 +187,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.GitHubExample;
 				SDKROOT = iphoneos;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 5.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -193,7 +201,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.GitHubExample;
 				SDKROOT = iphoneos;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 5.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -241,7 +249,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -299,7 +307,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";

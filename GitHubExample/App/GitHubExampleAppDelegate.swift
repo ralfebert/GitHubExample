@@ -1,4 +1,5 @@
-// © 2019 Ralf Ebert — GitHubExample
+// © 2019 Ralf Ebert — iOS Example Project: GitHubExample
+// License: https://opensource.org/licenses/MIT
 
 import UIKit
 
